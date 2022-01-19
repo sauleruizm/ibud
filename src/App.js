@@ -1,6 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+;
 
+
+
+
+/**
+ * @description Representa la aplicación principal
+ * @returns a main component
+ 
+ */
+// @flow
 function App() {
   return (
     <div className="App">
