@@ -20,21 +20,16 @@
     "@testing-library/user-event": "^13.5.0",
     "better-docs": "^2.4.1",
     "cross-env": "^7.0.3",
-    "flow-bin": "^0.169.0",
     "husky": "^7.0.4",
     "jsdoc": "^3.6.7"
   },
   "scripts": {
-    "init": "npm run flow init",
     "start": "react-scripts start",
     "build": "babel src/ -d lib/ && npm run docs && react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "docs": "jsdoc -c jsdoc.conf.json",
-    "prepublish": "npm run build",
-    "flow": "flow",
-    "lint": "eslint src",
-    "prepare": "husky install"
+    "prepublish": "npm run build"
   },
   "husky": {
     "hooks": {
