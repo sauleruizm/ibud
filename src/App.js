@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
+import logo from './logo.svg'
+import './App.css'
 /**
  * @description Representa la aplicación principal
  * @returns a main component
- 
+
  */
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
