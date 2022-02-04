@@ -4,11 +4,22 @@
     "es2021": true,
     "node": true
   },
-  "extends": ["plugin:react/recommended", "standard", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "standard",
+    "prettier"
+  ],
   "parserOptions": {
-    "ecmaFeatures": { "jsx": true },
+    "ecmaFeatures": {
+      "jsx": true
+    },
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": {}
+  "rules": {
+    // suppress errors for missing 'import React' in files
+    "react/react-in-jsx-scope": "off"
+  }
 }
