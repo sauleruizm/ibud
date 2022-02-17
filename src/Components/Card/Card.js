@@ -21,7 +21,7 @@ Card.propTypes = { tittle: PropTypes.string }
 
 const CardStyled = styled.div`
   border-color: greenyellow;
-  border-radius: 3px;
+  border-radius: 10px;
   border-style: solid;
   border-width: 2px;
   height: 40%;
