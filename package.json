@@ -26,7 +26,6 @@
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-react": "^7.28.0",
     "husky": "^7.0.4"
@@ -39,7 +38,7 @@
     "lint-fix": "eslint . --fix",
     "lint": "eslint .",
     "start": "react-scripts start",
-    "test": "cross-env CI=true react-scripts test --env=jsdom"
+    "test": "cross-env CI=true react-scripts test --env=jsdom --passWithNoTests"    
   },
   "husky": {
     "hooks": {
