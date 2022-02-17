@@ -13,4 +13,5 @@ export const FlexContainerStyled = styled.section`
   align-content: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
+  flex-flow: row;
 `
