@@ -34,7 +34,6 @@
   "scripts": {
     "build": "npm run lint && npm run format && react-scripts build",
     "eject": "react-scripts eject",
-    "format": "npx prettier -w",
     "lint-fix": "eslint . --fix",
     "lint": "eslint .",
     "start": "react-scripts start",
@@ -42,7 +41,8 @@
   },
   "otherScripts":{
     "build": "npm run lint && npm run format && npm run docs && react-scripts build",
-    "docs": "jsdoc -c jsdoc.conf.json"
+    "docs": "jsdoc -c jsdoc.conf.json",
+     "format": "npx prettier -w"
   },
   "husky": {
     "hooks": {
