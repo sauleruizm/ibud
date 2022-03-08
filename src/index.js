@@ -12,9 +12,9 @@ import {
   // Content2,
   // Content3,
   Footer,
-} from './Styles/Layouts/FlexLayout'
-import { Card } from './Components/Card/Card'
-import { FlexContainerStyled } from './Components/FlexContainer/FlexContainerStyled'
+} from './styles/Layouts/FlexLayout'
+import { Card } from './components/Card/Card'
+import { FlexContainerStyled } from './components/FlexContainer/FlexContainerStyled'
 
 ReactDOM.render(
   <React.StrictMode>
