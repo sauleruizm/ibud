@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
 export const Card = ({ tittle }) => {
   return (
     <CardStyled>
-      <Title>{tittle}</Title>
+      <Title>{tittle}</Title>      
     </CardStyled>
   )
 }
@@ -21,14 +21,14 @@ Card.propTypes = { tittle: PropTypes.string }
 
 const CardStyled = styled.div`
   border-color: greenyellow;
-  border-radius: 3px;
+  border-radius: 10px;
   border-style: solid;
   border-width: 2px;
   height: 40%;
   margin: 2px;
   width: 40%;
 `
-const Title = styled.h3`
+const Title = styled.h4`
   justify-content: center;
   flex-flow: row;
   text-align: center;
