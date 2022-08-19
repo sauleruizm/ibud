@@ -22,6 +22,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
@@ -41,7 +42,7 @@
   },
   "otherScripts":{
     "build": "npm run lint && npm run format && npm run docs && react-scripts build",
-    "docs": "jsdoc -c jsdoc.conf.json",
+   "docs": "jsdoc -c jsdoc.conf.json",
      "format": "npx prettier -w"
   },
   "husky": {
