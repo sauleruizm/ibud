@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'ibud'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C0D361E293E04B6C8ABE77729555E35D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E7453C271DA42CAAB11DBAA6592D192 }}
           package: .
