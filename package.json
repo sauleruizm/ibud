@@ -34,11 +34,11 @@
   },
   "scripts": {
     "build": "npm run lint && react-scripts build",
-    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "cross-env CI=true react-scripts test --env=jsdom --passWithNoTests",
     "lint-fix": "eslint . --fix",
     "lint": "eslint .",
-    "start": "react-scripts start",
-    "test": "cross-env CI=true react-scripts test --env=jsdom --passWithNoTests"    
+    "eject": "react-scripts eject"
   },
   "otherScripts":{
     "build": "npm run lint && npm run format && npm run docs && react-scripts build",

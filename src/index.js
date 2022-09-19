@@ -7,32 +7,32 @@ import {
   NavBar,
   Main,
   SideBar,
-  ContentBox,
-  Content1,
+  // ContentBox,
+  // Content1,
   // Content2,
   // Content3,
   Footer,
-} from './styles/Layouts/FlexLayout'
-import { Card } from './components/Card/Card'
-import { FlexContainerStyled } from './components/FlexContainer/FlexContainerStyled'
+} from './Components/Layouts/FlexLayout'
+// import { Card } from './components/Card/Card'
+// import { FlexContainerStyled } from './components/FlexContainer/FlexContainerStyled'
 
 ReactDOM.render(
   <React.StrictMode>
     <Container>
       <NavBar>NavBar</NavBar>
       <Main>
-        <FlexContainerStyled>
+        {/* <FlexContainerStyled>
           <Card tittle={'Agregar Gasto'}></Card>
           <Card tittle={'Agregar Monto'}></Card>
           <Card tittle={'Reportes'}></Card>
-        </FlexContainerStyled>
+        </FlexContainerStyled> */}
       </Main>
       <SideBar>SideBar</SideBar>
-      <ContentBox>
-        <Content1>Content1</Content1>
-        {/* <Content2>Content2</Content2>
-        <Content3>Content3</Content3> */}
-      </ContentBox>
+      {/* <ContentBox>
+        <Content1>Content1</Content1> 
+        <Content2>Content2</Content2>
+        <Content3>Content3</Content3>
+      </ContentBox> */}
       <Footer>Footer</Footer>
     </Container>
   </React.StrictMode>,
