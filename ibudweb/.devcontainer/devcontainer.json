@@ -1,0 +1,53 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+	"name": "Node.js, TS && Nextjs",
+	"runArgs": [
+		"--init"
+	],
+	// "image": "mcr.microsoft.com/devcontainers/javascript-node:16-bullseye"
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick a Node version: 16, 14, 12.
+		// Append -bullseye or -buster to pin to an OS version.
+		// Use -bullseye variants on local on arm64/Apple Silicon.
+		"args": {
+			"VARIANT": "16-bullseye"
+		}
+	},
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		3000
+	],
+	"extensions": [
+		"dbaeumer.vscode-esling",
+		"ms-vscode.vscode-typescript-next",
+		"streetsidesoftware.code-spell-checker",
+		"akamud.vscode-theme-onedark",
+		"formulahendry.auto-rename-tag",
+		"usernamehw.errorlens",
+		"dsznajder.es7-react-js-snippets",
+		"mhutchie.git-graph",
+		"GitHub.vscode-pull-request-github",
+		"kisstkondoros.vscode-gutter-preview",
+		"wix.vscode-import-cost",
+		"moalamri.inline-fold",
+		"PKief.material-icon-theme",
+		"christian-kohler.npm-intellisense",
+		"infeng.vscode-react-typescript",
+		"planbcoding.vscode-react-refactor",
+		"vscode-icons-team.vscode-icons",
+		"ChakrounAnas.turbo-console-log",
+		"RapidAPI.vscode-rapidapi-client",
+		"2gua.rainbow-brackets",
+		"ZainChen.json"
+	],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "yarn install",
+	// Configure tool-specific properties.
+	// "customizations": {},
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "node"
+}
