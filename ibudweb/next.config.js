@@ -1,17 +1,10 @@
-/** @type {import('next').NextConfig} */
-
-const withCSS = require('@zeit/next-css')
-
-module.exports = withCSS({
-  target: 'serverless',
-  env: {
-    BACKEND_URL: process.env.BACKEND_URL,
-  },
+module.exports = {
   webpackDevMiddleware: config => {
     config.watchOptions = {
-      poll: 1000,
+      poll: 800,
       aggregateTimeout: 300,
     }
+
     return config
   },
-})
+}
