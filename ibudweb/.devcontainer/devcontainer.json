@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.202.5/containers/typescript-node
 {
-	"name": "Node.js & TypeScript",
+	"name": "Nextjs & ts",
 	"runArgs": [
 		"--init"
 	],
@@ -18,7 +18,10 @@
 	"settings": {},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dbaeumer.vscode-eslint"
+		"dbaeumer.vscode-eslint",
+		"formulahendry.auto-rename-tag",
+		"akamud.vscode-theme-onedark",
+		"infeng.vscode-react-typescript"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
