@@ -28,7 +28,11 @@
 		"ms-vscode.vscode-typescript-next",
 		"GitHub.vscode-pull-request-github",
 		"mhutchie.git-graph",
-		"moalamri.inline-fold"
+		"moalamri.inline-fold",
+		"johnpapa.vscode-peacock",
+		"2gua.rainbow-brackets",
+		"RapidAPI.vscode-rapidapi-client",
+		"pflannery.vscode-versionlens"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
