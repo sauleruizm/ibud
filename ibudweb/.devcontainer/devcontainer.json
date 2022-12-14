@@ -1,0 +1,45 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.202.5/containers/typescript-node
+{
+	"name": "Nextjs & ts",
+	"runArgs": [
+		"--init"
+	],
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick a Node version: 16, 14, 12.
+		// Append -bullseye or -buster to pin to an OS version.
+		// Use -bullseye variants on local on arm64/Apple Silicon.
+		"args": {
+			"VARIANT": "16-bullseye"
+		}
+	},
+	// Set *default* container specific settings.json values on container create.
+	"settings": {},
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"formulahendry.auto-rename-tag",
+		"akamud.vscode-theme-onedark",
+		"infeng.vscode-react-typescript",
+		"dsznajder.es7-react-js-snippets",
+		"usernamehw.errorlens",
+		"wix.vscode-import-cost",
+		"ms-vscode.vscode-typescript-next",
+		"GitHub.vscode-pull-request-github",
+		"mhutchie.git-graph",
+		"moalamri.inline-fold",
+		"johnpapa.vscode-peacock",
+		"2gua.rainbow-brackets",
+		"RapidAPI.vscode-rapidapi-client",
+		"pflannery.vscode-versionlens"
+	],
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		3000
+	],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "yarn install",
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "root"
+}
