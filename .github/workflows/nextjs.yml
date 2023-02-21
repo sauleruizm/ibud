@@ -50,7 +50,7 @@ jobs:
           cd ibudweb
           npm i
           npm run build
-          npm run export
+          #npm run export
 
   # Deployment job
   deploy:
