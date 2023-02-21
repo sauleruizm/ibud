@@ -14,26 +14,35 @@
 			"VARIANT": "16-bullseye"
 		}
 	},
-	// Set *default* container specific settings.json values on container create.
-	"settings": {},
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"dbaeumer.vscode-eslint",
-		"formulahendry.auto-rename-tag",
-		"akamud.vscode-theme-onedark",
-		"infeng.vscode-react-typescript",
-		"dsznajder.es7-react-js-snippets",
-		"usernamehw.errorlens",
-		"wix.vscode-import-cost",
-		"ms-vscode.vscode-typescript-next",
-		"GitHub.vscode-pull-request-github",
-		"mhutchie.git-graph",
-		"moalamri.inline-fold",
-		"johnpapa.vscode-peacock",
-		"2gua.rainbow-brackets",
-		"RapidAPI.vscode-rapidapi-client",
-		"pflannery.vscode-versionlens"
-	],
+	"customizations": {
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"formulahendry.auto-rename-tag",
+				"akamud.vscode-theme-onedark",
+				"infeng.vscode-react-typescript",
+				"dsznajder.es7-react-js-snippets",
+				"usernamehw.errorlens",
+				"wix.vscode-import-cost",
+				"ms-vscode.vscode-typescript-next",
+				"GitHub.vscode-pull-request-github",
+				"mhutchie.git-graph",
+				"moalamri.inline-fold",
+				"johnpapa.vscode-peacock",
+				"2gua.rainbow-brackets",
+				"RapidAPI.vscode-rapidapi-client",
+				"pflannery.vscode-versionlens",
+				"kisstkondoros.vscode-gutter-preview",
+				"ZainChen.json",
+				"ms-vscode.live-server",
+				"ms-playwright.playwright",
+				"planbcoding.vscode-react-refactor"
+			]
+		}
+	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		3000
