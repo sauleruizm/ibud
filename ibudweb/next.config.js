@@ -4,6 +4,7 @@
 const nextConfig = {
   /* config options here */
   experimental: { appDir: true},
+  images.unoptimized = true
   // webpackDevMiddleware: config => {
   //   config.watchOptions = {
   //     poll: 800,
